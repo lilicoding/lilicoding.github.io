@@ -42,6 +42,10 @@ ul.posts li {
     list-style: none;
 }
 
+li {
+	margin-top: 10px;
+}
+
 .imageleft {
          border:1px solid #e5e5e5;
          background-color:#ffffff;
@@ -49,4 +53,9 @@ ul.posts li {
          margin-left:10px;
          margin-right:10px;
          float:left;
+}
+
+.smallbr {
+   display: block;
+   line-height: 0.5em;
 }
