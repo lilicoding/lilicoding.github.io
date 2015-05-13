@@ -41,3 +41,12 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.imageleft {
+         border:1px solid #e5e5e5;
+         background-color:#ffffff;
+         padding:5px;
+         margin-left:10px;
+         margin-right:10px;
+         float:left;
+}
