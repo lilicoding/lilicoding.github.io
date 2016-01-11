@@ -59,3 +59,12 @@ li {
    display: block;
    line-height: 0.5em;
 }
+
+<!-- 
+iframe[seamless] {
+    border: none;
+    width: 100%;
+    overflow-x:hidden;
+	overflow-y:hidden;
+}
+-->
