@@ -90,6 +90,11 @@ public class PublicationsManager
 					sb.append("          " + "&nbsp;<a href=\"papers/" + p.technicalReport + ".pdf" + "\">[technical-report]</a>" + "\n");
 				}
 				
+				if (null != p.notes)
+				{
+					sb.append("          " + "&nbsp;[<b>" + p.notes + "</b>]" + "\n");
+				}
+				
 				sb.append("        </li>" + "\n");
 			}
 			

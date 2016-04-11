@@ -31,9 +31,11 @@ public class PublicationsBib
 		sb.append("&nbsp;&nbsp;" + "title={" + p.title + "}, <br />" + "\n");
 		sb.append("&nbsp;&nbsp;" + "author={" + p.authors_bib + "}, <br />" + "\n");
 		sb.append("&nbsp;&nbsp;" + "booktitle={" + p.venue + "}, <br />" + "\n");
-		sb.append("&nbsp;&nbsp;" + "year={" + p.year + "}, <br />" + "\n");
+		sb.append("&nbsp;&nbsp;" + "year={" + p.year + "} <br />" + "\n");
 		
 		sb.append("\n");
+		
+		sb.append("}" + "\n");
 		
 		sb.append("</body>" + "\n");
 		
