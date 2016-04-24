@@ -64,7 +64,7 @@ public class PublicationsManager
 				continue;
 			}
 			
-			
+			 
 			sb.append("    <p>" + "\n");
 			sb.append("      <h3>" + i + "</h3>" + "\n");
 			
