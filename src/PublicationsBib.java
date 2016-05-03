@@ -25,7 +25,7 @@ public class PublicationsBib
 			
 		}
 		
-		sb.append("\n");
+		//sb.append("\n");
 		
 		sb.append(p.id + ", <br />" + "\n");
 		sb.append("&nbsp;&nbsp;" + "title={" + p.title + "}, <br />" + "\n");
