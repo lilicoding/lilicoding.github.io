@@ -5,6 +5,19 @@ import re
 
 txtfile = sys.argv[1]
 
+def extract_title(reference):
+    
+	matchObj = re.match('.*and\s\S\S+\.', reference)
+	
+	print matchObj
+    
+	if matchObj:
+		print matchObj.group()
+    
+	return
+
+
+
 f = open(txtfile, 'r')
 
 toggle = False
@@ -25,12 +38,14 @@ for line in f.readlines():
 		if ref != []:
 			bib = " ".join(ref)
 			print(bib)
+			extract_title(bib)
 
 	if toggle == True:
 		if line.startswith('[') or re.match('[0-9]+\.\s.*',line):
 			bib = " ".join(ref)
 			if ref != []:
-				print(bib)
+                		print(bib)
+				extract_title(bib)
 			ref = []
 			ref.append(line)
 		else:
@@ -39,3 +54,4 @@ for line in f.readlines():
 if toggle == True:
 	bib = " ".join(ref)
 	print(bib)
+	extract_title(bib)
