@@ -76,7 +76,7 @@ public class PublicationsManager
 				
 				sb.append("        <li>" + "\n");
 				sb.append("          " + "[" + p.count + "]&nbsp;" + "\n");
-				sb.append("          " + p.authors + ", " + p.title + ", " + p.venue + "\n");
+				sb.append("          " + p.authors.replace("Li Li", "<b>Li Li</b>") + ", " + p.title + ", " + p.venue + ", " + p.year + "\n");
 				sb.append("          " + "&nbsp;<a href=\"papers/" + p.id + ".pdf" + "\">[pdf]</a>" + "\n");
 				sb.append("          " + "&nbsp;<a href=\"bibs/" + p.id + ".html" + "\">[bib]</a>" + "\n");
 				
