@@ -49,8 +49,12 @@ public class PublicationsManager
 		
 		sb.append("    <nav>" + "\n");
 		sb.append("    <ul>" + "\n");
-		sb.append("      <li><a href=\"index.html\">Home</a></li>" + "\n");
-		sb.append("      <li><a href=\"publications.html\">Publications</a></li>" + "\n");
+		sb.append("      <li><a href=\"index.html\"><font size=\"4\">Home</font></a></li>" + "\n");
+		sb.append("      <li><a href=\"news.html\"><font size=\"4\">News</font></a></li>" + "\n");
+		sb.append("      <li><a href=\"publications.html\"><font size=\"4\">Publications</font></a></li>" + "\n");
+		sb.append("      <li><a href=\"teaching.html\"><font size=\"4\">Teaching</font></a></li>" + "\n");
+		sb.append("      <li><a href=\"services.html\"><font size=\"4\">Services</font></a></li>" + "\n");
+		sb.append("      <li><a href=\"artefacts.html\"><font size=\"4\">Artefacts</font></a></li>" + "\n");
 		sb.append("    </ul>" + "\n");
 		sb.append("    </nav>" + "\n");
 		
