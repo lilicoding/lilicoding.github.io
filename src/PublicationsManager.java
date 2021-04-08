@@ -167,6 +167,8 @@ public class PublicationsManager
 			Publication p = new Publication();
 			p.id = row.getCell(0).getStringCellValue().trim();
 			
+			/*
+			 * Selected Feature is Deprecated!
 			if (null != row.getCell(1))
 			{
 				String c1 = row.getCell(1).getStringCellValue();
@@ -178,7 +180,7 @@ public class PublicationsManager
 				{
 					p.selected = false;
 				}
-			}
+			}*/
 			
 			p.type = row.getCell(2).getStringCellValue().trim();
 			
