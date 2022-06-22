@@ -164,6 +164,9 @@ public class PublicationsManager
 		{
 			Row row = sheet.getRow(rowNum);
 		
+			if (null == row)
+				break;
+			
 			Publication p = new Publication();
 			p.id = row.getCell(0).getStringCellValue().trim();
 			
